@@ -14,6 +14,12 @@
 		045DF53B1B6F0905006FEBD7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045DF53A1B6F0905006FEBD7 /* Images.xcassets */; };
 		045DF53E1B6F0905006FEBD7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 045DF53C1B6F0905006FEBD7 /* LaunchScreen.xib */; };
 		045DF54A1B6F0905006FEBD7 /* __________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 045DF5491B6F0905006FEBD7 /* __________Tests.m */; };
+		045DF5561B6F0A8B006FEBD7 /* SYFTextBoxController.m in Sources */ = {isa = PBXBuildFile; fileRef = 045DF5541B6F0A8B006FEBD7 /* SYFTextBoxController.m */; };
+		045DF5571B6F0A8B006FEBD7 /* SYFTextBoxController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 045DF5551B6F0A8B006FEBD7 /* SYFTextBoxController.xib */; };
+		045DF55A1B6F0C63006FEBD7 /* SYFTextBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 045DF5591B6F0C63006FEBD7 /* SYFTextBox.m */; };
+		045DF55C1B6F0C84006FEBD7 /* SYFTextBox.xib in Resources */ = {isa = PBXBuildFile; fileRef = 045DF55B1B6F0C84006FEBD7 /* SYFTextBox.xib */; };
+		045DF55F1B6F10B9006FEBD7 /* SYFCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 045DF55E1B6F10B9006FEBD7 /* SYFCustomButton.m */; };
+		045DF5611B6F1D08006FEBD7 /* 378-close.png in Resources */ = {isa = PBXBuildFile; fileRef = 045DF5601B6F1D08006FEBD7 /* 378-close.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +46,15 @@
 		045DF5431B6F0905006FEBD7 /* 模仿优酷的文本输入框Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "模仿优酷的文本输入框Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		045DF5481B6F0905006FEBD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		045DF5491B6F0905006FEBD7 /* __________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__________Tests.m"; sourceTree = "<group>"; };
+		045DF5531B6F0A8B006FEBD7 /* SYFTextBoxController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYFTextBoxController.h; sourceTree = "<group>"; };
+		045DF5541B6F0A8B006FEBD7 /* SYFTextBoxController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYFTextBoxController.m; sourceTree = "<group>"; };
+		045DF5551B6F0A8B006FEBD7 /* SYFTextBoxController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SYFTextBoxController.xib; sourceTree = "<group>"; };
+		045DF5581B6F0C63006FEBD7 /* SYFTextBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYFTextBox.h; sourceTree = "<group>"; };
+		045DF5591B6F0C63006FEBD7 /* SYFTextBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYFTextBox.m; sourceTree = "<group>"; };
+		045DF55B1B6F0C84006FEBD7 /* SYFTextBox.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SYFTextBox.xib; sourceTree = "<group>"; };
+		045DF55D1B6F10B9006FEBD7 /* SYFCustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYFCustomButton.h; sourceTree = "<group>"; };
+		045DF55E1B6F10B9006FEBD7 /* SYFCustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYFCustomButton.m; sourceTree = "<group>"; };
+		045DF5601B6F1D08006FEBD7 /* 378-close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "378-close.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +78,7 @@
 		045DF5211B6F0905006FEBD7 = {
 			isa = PBXGroup;
 			children = (
+				045DF5601B6F1D08006FEBD7 /* 378-close.png */,
 				045DF52C1B6F0905006FEBD7 /* 模仿优酷的文本输入框 */,
 				045DF5461B6F0905006FEBD7 /* 模仿优酷的文本输入框Tests */,
 				045DF52B1B6F0905006FEBD7 /* Products */,
@@ -81,13 +97,14 @@
 		045DF52C1B6F0905006FEBD7 /* 模仿优酷的文本输入框 */ = {
 			isa = PBXGroup;
 			children = (
-				045DF5311B6F0905006FEBD7 /* AppDelegate.h */,
-				045DF5321B6F0905006FEBD7 /* AppDelegate.m */,
-				045DF5341B6F0905006FEBD7 /* ViewController.h */,
-				045DF5351B6F0905006FEBD7 /* ViewController.m */,
-				045DF5371B6F0905006FEBD7 /* Main.storyboard */,
-				045DF53A1B6F0905006FEBD7 /* Images.xcassets */,
-				045DF53C1B6F0905006FEBD7 /* LaunchScreen.xib */,
+				045DF5531B6F0A8B006FEBD7 /* SYFTextBoxController.h */,
+				045DF5541B6F0A8B006FEBD7 /* SYFTextBoxController.m */,
+				045DF5551B6F0A8B006FEBD7 /* SYFTextBoxController.xib */,
+				045DF5581B6F0C63006FEBD7 /* SYFTextBox.h */,
+				045DF5591B6F0C63006FEBD7 /* SYFTextBox.m */,
+				045DF55B1B6F0C84006FEBD7 /* SYFTextBox.xib */,
+				045DF55D1B6F10B9006FEBD7 /* SYFCustomButton.h */,
+				045DF55E1B6F10B9006FEBD7 /* SYFCustomButton.m */,
 				045DF52D1B6F0905006FEBD7 /* Supporting Files */,
 			);
 			path = "模仿优酷的文本输入框";
@@ -96,6 +113,13 @@
 		045DF52D1B6F0905006FEBD7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				045DF5311B6F0905006FEBD7 /* AppDelegate.h */,
+				045DF5321B6F0905006FEBD7 /* AppDelegate.m */,
+				045DF5341B6F0905006FEBD7 /* ViewController.h */,
+				045DF5351B6F0905006FEBD7 /* ViewController.m */,
+				045DF5371B6F0905006FEBD7 /* Main.storyboard */,
+				045DF53A1B6F0905006FEBD7 /* Images.xcassets */,
+				045DF53C1B6F0905006FEBD7 /* LaunchScreen.xib */,
 				045DF52E1B6F0905006FEBD7 /* Info.plist */,
 				045DF52F1B6F0905006FEBD7 /* main.m */,
 			);
@@ -200,8 +224,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				045DF5391B6F0905006FEBD7 /* Main.storyboard in Resources */,
+				045DF55C1B6F0C84006FEBD7 /* SYFTextBox.xib in Resources */,
+				045DF5571B6F0A8B006FEBD7 /* SYFTextBoxController.xib in Resources */,
 				045DF53E1B6F0905006FEBD7 /* LaunchScreen.xib in Resources */,
 				045DF53B1B6F0905006FEBD7 /* Images.xcassets in Resources */,
+				045DF5611B6F1D08006FEBD7 /* 378-close.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +247,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				045DF5361B6F0905006FEBD7 /* ViewController.m in Sources */,
+				045DF55A1B6F0C63006FEBD7 /* SYFTextBox.m in Sources */,
+				045DF5561B6F0A8B006FEBD7 /* SYFTextBoxController.m in Sources */,
+				045DF55F1B6F10B9006FEBD7 /* SYFCustomButton.m in Sources */,
 				045DF5331B6F0905006FEBD7 /* AppDelegate.m in Sources */,
 				045DF5301B6F0905006FEBD7 /* main.m in Sources */,
 			);

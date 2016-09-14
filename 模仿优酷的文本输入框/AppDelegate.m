@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "SYFTextBoxController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    SYFTextBoxController  * box = [[SYFTextBoxController alloc] initWithNibName:@"SYFTextBoxController" bundle:nil];
+    self.window.rootViewController = box;
     return YES;
 }
 
